@@ -40,4 +40,4 @@ abstract = {Due to the annotation difficulty of point clouds, Unsupervised Domai
 }
 ### Reference
 
-This project is based on https://github.com/Megvii-Nanjing/ML_GCN
+This project is based on 
