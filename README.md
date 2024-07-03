@@ -41,5 +41,3 @@ author = {Qing Li and Chuan Yan and Qi Hao and Xiaojiang Peng and Li Liu},
 }
 ### Reference
 This project is based on https://github.com/IdanAchituve/DefRec_and_PCM
-
-This project is based on 
