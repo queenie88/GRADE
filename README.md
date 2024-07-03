@@ -14,11 +14,8 @@ Please enter the main folder and model
 
 ## Demo PointSegDA
 
-python ../trainer_mt_o13_2.py --exp_name _a_f --out_path ../experiments_o13_2_tr --dataroot ../data/PointSegDAdataset --src_dataset adobe --trgt_dataset faust --model 'dgcnn_trs' --DefRec_weight 0.05 --lr 1e-4 --wd 5e-6 --pre_model="../experiments_tr_pre/a_pre/model.pt" --pre_model2="../experiments_tr_pre_s50/a_pre/model.pt" 
+    python ../trainer_mt_o13_2.py --exp_name _a_f --out_path ../experiments_o13_2_tr --dataroot ../data/PointSegDAdataset --src_dataset adobe --trgt_dataset faust --model 'dgcnn_trs' --DefRec_weight 0.05 --lr 1e-4 --wd 5e-6 --pre_model="../experiments_tr_pre/a_pre/model.pt" --pre_model2="../experiments_tr_pre_s50/a_pre/model.pt" 
 
-
-### Our pre-trained 
-python ../trainer_pre.py --exp_name M_pre --out_path ../experiments_pre_f --dataroot ../data --src_dataset modelnet --DefRec_weight 0.2 --lr 1e-3 --wd 5e-5
 
 ### Citing this repository
 
